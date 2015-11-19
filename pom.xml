@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.kadaster.pdok</groupId>
 	<artifactId>geoserver-manager-pdok</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0.1-SNAPSHOT</version>
 	<name>PDOK Geoserver manager</name>
 	<description>PDOK Geoserver Manager</description>
 	<organization>
@@ -16,12 +16,6 @@
 	</properties>    
 
 	<dependencies>
-
-		<dependency>
-			<groupId>nl.kadaster.pdok</groupId>
-			<artifactId>geoserver-manager-pdok</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.codehaus.groovy.modules.http-builder</groupId>
