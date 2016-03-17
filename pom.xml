@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.kadaster.pdok</groupId>
 	<artifactId>geoserver-manager-pdok</artifactId>
-	<version>1.0.0.2-SNAPSHOT</version>
+	<version>1.0.0.2</version>
 	<name>PDOK Geoserver manager</name>
 	<description>PDOK Geoserver Manager</description>
 	<organization>
@@ -114,7 +114,7 @@
 		<url>http://github.so.kadaster.nl/PDOK/geoserver-manager-pdok</url>
 		<connection>scm:git:http://github.so.kadaster.nl/PDOK/geoserver-manager-pdok.git</connection>
 		<developerConnection>scm:git:git@github.so.kadaster.nl:PDOK/geoserver-manager-pdok.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>geoserver-manager-pdok-1.0.0.2</tag>
   </scm>
 
 	<build>
