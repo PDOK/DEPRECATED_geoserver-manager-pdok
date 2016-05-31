@@ -26,7 +26,7 @@
 package it.geosolutions.geoserver.rest.encoder;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -102,7 +102,7 @@ public class GSLayerEncoder21 extends GSLayerEncoder {
 	 */
 	public void addAuthorityURL(GSAuthorityURLInfoEncoder authorityURLInfo){	
 		if(authorityURLList == null){
-			authorityURLList = new HashMap<String,String>();
+			authorityURLList = new TreeMap<String,String>();
 		}
 		authorityURLList.put(authorityURLInfo.getHref(), authorityURLInfo.getName());
 		String jsonStr = "";
@@ -152,7 +152,7 @@ public class GSLayerEncoder21 extends GSLayerEncoder {
 	 */
 	public void addIdentifier(GSIdentifierInfoEncoder identifierInfo){
 		if(identifierList == null){
-			identifierList = new HashMap<String,List<String>>();
+			identifierList = new TreeMap<String,List<String>>();
 		}
 		
 		String authority = identifierInfo.getAuthority();

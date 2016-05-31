@@ -96,8 +96,6 @@ public class GSLayerEncoder21Test {
 				
 			}else if(key.matches("identifiers")){
 
-				// This is some seriously shitty test code...
-
 				String jsonStr = el.getValue();
 				jsonStr = jsonStr.substring(2);
 				jsonStr = jsonStr.substring(0,
